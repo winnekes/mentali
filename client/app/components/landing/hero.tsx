@@ -30,20 +30,22 @@ export const Hero = () => {
     >
       <VStack flex={[null, null, null, null, 2]}>
         <Heading fontWeight={600} fontSize={{ base: "5xl", lg: "7xl" }} lineHeight="110%" mb={10}>
-          Take control of your{" "}
+          Don't weather your{" "}
           <Text as="span" color="purple.400">
-            mental weather
+            emotions alone
           </Text>
         </Heading>
         <Text fontSize={{ base: "xl", md: "2xl" }}>
           Emotions and feelings are never easy. Sometimes it seems impossible to put into words
           what&apos;s going on in your mind.
           <br />
-          And you{" "}
           <Text as="span" color="purple.400" fontWeight="bold">
-            don&apos;t have to do it alone
+            sturmglas
+          </Text>{" "}
+          helps you track your emotions, and soon,{" "}
+          <Text as="span" color="purple.400" fontWeight="bold">
+            predict it
           </Text>
-          .
         </Text>
         <Box py={10}>
           <Button
